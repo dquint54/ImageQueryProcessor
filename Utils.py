@@ -26,7 +26,7 @@ if current_version < required_version:
 else:
     print("OpenAI version is compatible.")
 
-openai.api_key = "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"
+openai.api_key = ""
 client = OpenAI(api_key=openai.api_key)
 settings = Settings(allow_reset=True)
 
