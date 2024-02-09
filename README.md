@@ -3,7 +3,7 @@
 
 ## Description
 
-ImageQueryProcessor is a tool designed to bridge the gap between textual queries and visual content. Leveraging advanced embedding techniques and OpenAI's powerful models, it retrieves and displays relevant images from an S3 bucket based on text descriptions. This project aims to simplify the process of finding visual content that matches textual descriptions, enhancing user experience in various applications such as digital asset management, content discovery, and more.
+is a tool designed to bridge the gap between textual queries and visual content, developed with an integration into Databricks for enhanced data processing and analysis capabilities. By leveraging advanced embedding techniques, OpenAI's powerful models, and Databricks' unified analytics platform, it retrieves and displays relevant images from an S3 bucket based on text descriptions. This project aims to simplify the process of finding visual content that matches textual descriptions, enhancing user experience in various applications such as digital asset management, content discovery, and more, while fully utilizing Databricks for scalable data processing and machine learning workflows.
 
 ## Installation
 
