@@ -21,6 +21,27 @@ Make sure you have Python installed, then run:
 pip install -r requirements.txt
 ```
 
+## Database Setup in ChromaDB
+
+To store and retrieve image embeddings and document data efficiently, setting up a database in ChromaDB is required.
+
+1. **Create a ChromaDB Account**
+   - Visit [ChromaDB's website](https://www.chromadb.com) and sign up for an account.
+
+2. **Create a New Database**
+   - Once logged in, navigate to the dashboard and create a new database. Note down the database credentials and endpoint.
+
+3. **Configure Database Access**
+   - Use the provided credentials to configure database access within the application. It's recommended to use environment variables for storing these credentials securely.
+
+```bash
+export CHROMADB_ENDPOINT='your_chromadb_endpoint'
+export CHROMADB_API_KEY='your_chromadb_api_key'
+```
+
+4. **Initialize Your Database**
+   - Utilize the initialization script provided in the repository to set up the necessary tables and schemas in your ChromaDB database.
+
 3. **Configure AWS Credentials**
 Ensure you have AWS CLI installed and configured with your AWS account. See [AWS CLI Configuration](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for more details.
 
